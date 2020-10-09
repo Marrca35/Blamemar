@@ -1,0 +1,25 @@
+{
+  "name": "heist",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "bot.js",
+  "type": "module",
+  "files": [
+    "commands/ban.cjs",
+    "commands/help.cjs",
+    "commands/kick.cjs",
+    "commands/mute.cjs",
+    "commands/purge.cjs",
+    "commands/reload.cjs",
+    "commands/unmute.cjs"
+  ],
+  "scripts": {
+    "run": "node bot.mjs"
+  },
+  "author": "Marrca35",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
