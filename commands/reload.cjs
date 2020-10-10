@@ -3,11 +3,11 @@ module.exports = {
   description: "reloads the specified command if it exists",
   args: false,
   usage: "[command]",
+  perms: ["ADMINISTRATOR"],
   async execute(message, args) {
     if (args.length) {
       const commandName = args[0].toLowerCase();
       const old = message.client.commands.get(commandName);
-
       if (!old) {
         return await message.channel.send(
           `There is no command with the name \`${commandName}\`, ${message.author}`

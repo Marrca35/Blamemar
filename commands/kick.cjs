@@ -6,6 +6,7 @@ module.exports = {
   description: "kicks the specified user from the server",
   args: true,
   usage: "<user> <reason>",
+  perms: ["KICK_MEMBERS"],
   async execute(message, args) {
     let reason = "";
     args.forEach((element) => {

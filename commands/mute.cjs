@@ -6,6 +6,7 @@ module.exports = {
   description: "mutes the specified user if not muted",
   args: true,
   usage: "<user> <reason>",
+  perms: ["MUTE_MEMBERS"],
   async execute(message, args) {
     let reason = "";
     args.forEach((element) => {

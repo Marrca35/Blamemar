@@ -3,6 +3,7 @@ module.exports = {
   description: "purges/deletes the specified amount of messages",
   args: true,
   usage: "<amount>",
+  perms: ["MANAGE_MESSAGES"],
   async execute(message, args) {
     const amount = args[0];
     if (!amount) {

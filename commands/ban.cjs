@@ -6,6 +6,7 @@ module.exports = {
   description: "bans the specified user",
   args: true,
   usage: "<user> <reason>",
+  perms: ["BAN_MEMBERS"],
   async execute(message, args) {
     let reason = "";
     args.forEach((element) => {
