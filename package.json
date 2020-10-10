@@ -2,8 +2,7 @@
   "name": "heist",
   "version": "1.0.0",
   "description": "Discord Bot",
-  "main": "bot.js",
-  "type": "module",
+  "main": "bot.cjs",
   "files": [
     "commands/ban.cjs",
     "commands/help.cjs",
@@ -14,12 +13,21 @@
     "commands/unmute.cjs"
   ],
   "scripts": {
-    "run": "node bot.mjs"
+    "test": "node bot.cjs"
   },
   "author": "Marrca35",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0"
-  }
+    "discord.js": "^12.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marrca35/Heist-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Marrca35/Heist-Bot/issues"
+  },
+  "homepage": "https://github.com/Marrca35/Heist-Bot#readme",
+  "keywords": []
 }

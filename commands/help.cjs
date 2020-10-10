@@ -10,7 +10,7 @@ module.exports = {
     const embed = new MessageEmbed()
       .setColor("#0099ff")
       .setAuthor(
-        `${message.client.user.username} ${version}`,
+        `${message.client.user.username}`,
         message.client.user.avatarURL()
       )
       .setTitle("Help");

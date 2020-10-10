@@ -4,3 +4,4 @@ heist_logo.png
 
 # Directories
 .vscode/
+node_modules/
